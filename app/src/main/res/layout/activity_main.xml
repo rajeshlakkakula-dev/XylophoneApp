@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/c_key"
+        style="@style/keyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:onClick="playC" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/d_key"
+        style="@style/keyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        android:onClick="playD" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/e_key"
+        style="@style/keyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow"
+        android:onClick="playE" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/f_key"
+        style="@style/keyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:onClick="playF" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/g_key"
+        style="@style/keyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/turquoise"
+        android:onClick="playG" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/a_key"
+        style="@style/keyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:onClick="playA" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/b_key"
+        style="@style/keyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple"
+        android:onClick="playB" />
+
+
+</LinearLayout>
